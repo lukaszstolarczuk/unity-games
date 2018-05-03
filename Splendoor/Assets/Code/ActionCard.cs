@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DevelopmentCard : Card
+public class ActionCard : Card
 {
-    public int Tier;
 }
