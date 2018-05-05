@@ -167,4 +167,9 @@ public class Player
 
         NobleTiles.Add(tile);
     }
+
+    public bool FulfillsWinningConditions()
+    {
+        return PrestigePoints >= 15;
+    }
 }
